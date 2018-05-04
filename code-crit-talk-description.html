@@ -1,66 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-  <title>Code Crit</title>
-  <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <title>CodeCrit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 
-
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body id="index" class="home">
-  <header id="banner" class="body">
-    <h1>
-      <a href="/">Code Crit
-        <strong></strong>
-      </a>
-    </h1>
-  </header>
-  <!-- /#banner -->
-  <nav id="menu">
-    <ul>
-    </ul>
-  </nav>
-  <!-- /#menu -->
-  <section id="content" class="body">
-    <header>
-      <h2 class="entry-title">
-        <a href="/code-crit-talk-description.html" rel="bookmark" title="Permalink to Code Crit Talk Description">Code Crit Talk Description</a>
-      </h2>
-
-    </header>
-    <footer class="post-info">
-      <time class="published" datetime="2017-10-02T00:00:00-04:00">
-        Mon 02 October 2017
-      </time>
-      <address class="vcard author">
-        By
-        <a class="url fn" href="/author/stacy-morse.html">Stacy Morse</a>
-      </address>
-    </footer>
-    <!-- /.post-info -->
-    <div class="entry-content">
-      <p>Code reviews don’t have to be a time consuming, morale zapping, arduous tasks. Not only can they catch bugs and errors
-        but they can contribute in positive ways to the individual developer, the team, management and company as a whole.</p>
-      <p>Art critiques have existed in academia for hundreds of years. The methodology of the critique has evolved to be time
-        sensitive and productive, while keeping the enthusiasm of the student artist intact.</p>
-      <p>The purpose of the art critique is to get peers and mentors to look at the work and raise any problems they may see.
-        It’s also time where people with more experience could contribute their knowledge in a helpful way. This process
-        is about producing the best work, quickly and in a productive and constructive way.</p>
-      <p>These methods can be applied to code review. </p>
+<body>
+    <div class="navbar-fixed">
+        <nav class="light-blue lighten-2">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo left">Code Crit</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse right">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="methodology.html">Methodology</a>
+                    </li>
+                    <li>
+                        <a href="about-the-code-crit-methodology.html">About Code Crit</a>
+                    </li>
+                    <li class="active">
+                        <a href="talks.html">Talks</a>
+                    </li>
+                    <li>
+                        <a href="author.html">Author</a>
+                    </li>
+                </ul>
+                <ul id="mobile-demo" class="right side-nav">
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-accordion">
+                            <li class="bold">
+                                <a href="methodology.html" class="waves-effect waves-teal">Methodology</a>
+                            </li>
+                            <li class="bold">
+                                <a href="about-the-code-crit-methodology.html" class="waves-effect waves-teal">About Code Crit</a>
+                            </li>
+                            <li class="bold">
+                                <a href="talks.html" class="waves-effect waves-teal">Talks</a>
+                            </li>
+                            <li class="bold">
+                                <a href="author.html" class="waves-effect waves-teal">Author</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <!-- /.entry-content -->
-  </section>
-  <footer id="contentinfo" class="body">
-    <address id="about" class="vcard body">
-      Proudly powered by
-      <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of
-      <a href="http://python.org">Python</a>.
-    </address>
-    <!-- /#about -->
-  </footer>
-  <!-- /#contentinfo -->
+    <div class="container">
+        <div class="entry-content">
+            <p>Code reviews don’t have to be a time consuming, morale zapping, arduous tasks. Not only can they catch bugs and errors
+                but they can contribute in positive ways to the individual developer, the team, management and company as a whole.</p>
+              <p>Art critiques have existed in academia for hundreds of years. The methodology of the critique has evolved to be time
+                sensitive and productive, while keeping the enthusiasm of the student artist intact.</p>
+              <p>The purpose of the art critique is to get peers and mentors to look at the work and raise any problems they may see.
+                It’s also time where people with more experience could contribute their knowledge in a helpful way. This process
+                is about producing the best work, quickly and in a productive and constructive way.</p>
+              <p>These methods can be applied to code review. </p>
+        </div>
+        <div class="section">
+            <h3><a href="https://us.pycon.org/2018/schedule/presentation/149/">PyConAU 2017</a></h3>
+            <h4>Code Reviews Using Art Critique Principles</h4>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xpqwuaCW6os?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
 </body>
 
 </html>

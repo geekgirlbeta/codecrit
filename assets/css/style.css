@@ -1,0 +1,25 @@
+nav .brand-logo {
+    font-size: 2.7rem;
+    padding-left: 1rem;
+}
+
+nav .button-collapse i {
+    font-size: 2.2rem;
+    padding-right: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+blockquote {
+    border-left: 5px solid #03a9f4;
+}
